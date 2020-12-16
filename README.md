@@ -4,15 +4,16 @@ test extension tool for anykit. injects anykit client script in the current webp
 
 ### Getting Started
 
-1. `git clone https://github.com/dailykit/anykit-chrome-extension` or `gh repo clone dailykit/anykit-chrome-extension`
-2. add `.npmrc` to the root dir with below contents (replace `<GITHUB_TOKEN>` with you github personal access token):
+1. `git clone https://github.com/dailykit/anykit-chrome-extension`
+   or `gh repo clone dailykit/anykit-chrome-extension`
+2. add `.npmrc` to the root dir with below contents (replace `<GITHUB_TOKEN>` with you personal [github access token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)):
 
-```
-@dailykit:registry = https://npm.pkg.github.com
+   ```
+   @dailykit:registry = https://npm.pkg.github.com
 
-_authToken = <GITHUB_TOKEN>
-always-auth = true
-```
+   _authToken = <GITHUB_TOKEN>
+   always-auth = true
+   ```
 
 3. run `npm i`
 4. run `npm run build`
