@@ -1,0 +1,14 @@
+{
+  "name": "anykit",
+  "version": "1.0.0",
+  "description": "test extension tool for anykit. injects anykit client script in the current webpage",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["lib/background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "anykit"
+  },
+  "permissions": ["activeTab"]
+}
