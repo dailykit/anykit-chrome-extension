@@ -1,4 +1,4 @@
 import "@dailykit/anykit";
 
-const anykit = new AnyKit({ button: { location: "body" } });
+const anykit = new AnyKit({});
 anykit.init();
